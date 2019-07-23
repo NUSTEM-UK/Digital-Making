@@ -7,6 +7,8 @@ Run using:
 Will pop up a window with a dark red background and an alien graphic. Note that PyGameZero is broken on Macs as of Summer 2019.
 """
 
+import pgzrun
+
 alien = Actor('alien')
 alien.topright = 0, 10
 
@@ -35,3 +37,6 @@ def set_alien_normal():
 def draw():
     screen.fill((128, 0, 0))
     alien.draw()
+
+
+pgzrun.go()
