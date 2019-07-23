@@ -8,7 +8,7 @@ Will pop up a window with a dark red background and an alien graphic. Note that 
 """
 
 alien = Actor('alien')
-alien.pos = 0, 10
+alien.topright = 0, 10
 
 WIDTH = 300
 HEIGHT = alien.height + 20
@@ -29,7 +29,7 @@ def set_alien_hurt():
     sounds.eep.play()
     clock.schedule_unique(set_alien_normal, 1.0)
 
-def set_alien_norma():
+def set_alien_normal():
     alien.image = 'alien'
 
 def draw():
