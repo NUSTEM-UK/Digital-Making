@@ -1,4 +1,7 @@
 twythonCreds.py
+
+# any accidental image hosting
+camImage.jpg
 .DS_Store
 examples/weatherapi/clientsecrets.py
 
@@ -126,4 +129,3 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-
