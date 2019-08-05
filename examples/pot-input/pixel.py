@@ -2,6 +2,9 @@
 
 Run with sudo (required for hardware access in this case)
 
+NeoPixels aren't supported by GPIOzero (yet), so this is all a bit different
+to the previous stuff we've done.
+
 Dependencies (pip3 install):
     RPI.GPIO
     adafruit-blinka
@@ -12,6 +15,7 @@ import board
 import neopixel
 from time import sleep
 from colorwheel import wheel
+
 
 pixel_pin = board.D18
 num_pixels = 1

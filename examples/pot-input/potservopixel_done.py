@@ -25,11 +25,16 @@ def map_values(x, a, b, c, d):
 while True:
     potReading = pot.value
     servoSetting = map_values(potReading, 0.0, 1.0, -1.0, 1.0)
+    
     hue = map_values(potReading, 0.0, 1.0, 0, 255)
+
     # Spew diagnostics to the terminal, but formatted neatly
     print("%1.3f, %1.3f, %3d" % (potReading, servoSetting, hue))
+    
     # Move the servo
     servo.value = servoSetting
+    
     # Set the LED colour
     pixels.fill(wheel(hue))
+
     sleep(0.05)
