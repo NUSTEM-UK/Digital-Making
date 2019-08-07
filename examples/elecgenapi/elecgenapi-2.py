@@ -15,6 +15,9 @@ https://matplotlib.org/3.1.1/gallery/pie_and_polar_charts/pie_features.html
 import requests
 import matplotlib.pyplot as plt
 
+# I removed the 'headers' dictionary in the previous example because it turns out
+# it's not strictly necessary. However, it *is* in the National Grid example code,
+# so I thought I should leave it in, really.
 headers = {
     'Accept': 'application/json'
 }
@@ -33,10 +36,12 @@ for fuel in mix['data']['generationmix']:
     percentage.append(fuel['perc'])
 
 # Set up a chart
-fix1, ax1 = plt.subplots()
+fig1, ax1 = plt.subplots()
 # Plot a pie chart of the percentage data, using fueltype as labels.
 ax1.pie(percentage, labels=fueltype, autopct='%1.1f%%', shadow=False, startangle=90)
 ax1.axis('equal') # Equal aspect ratio ensures that pie is drawn as a circle
 
 # Present the pie chart. Close the window to exit the program
+print("This may take a short while!")
+print("Note: program will not exit until you close the resulting chart window.")
 plt.show()

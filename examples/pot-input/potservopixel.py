@@ -27,7 +27,7 @@ while True:
     servoSetting = map_values(potReading, 0.0, 1.0, -1.0, 1.0)
     
     ########
-    # Set hue
+    # Calculate hue here
     ########
 
     # Spew diagnostics to the terminal, but formatted neatly
@@ -36,7 +36,7 @@ while True:
     servo.value = servoSetting
     
     ########
-    # Set the LED colour
+    # Set the LED colour here
     ########
 
     sleep(0.05)

@@ -1,5 +1,8 @@
 """Open Weather Map API demo script.
 
+Documentation for PyOWM:
+    https://pyowm.readthedocs.io/en/latest/
+
 Requires:
 
     pip3 install pyowm
