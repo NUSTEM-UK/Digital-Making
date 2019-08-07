@@ -98,12 +98,33 @@ sequence(0.7)
 # [fit]Programming as 
 ## [fit]**Digital Lego**
 
+---
+![fit](images/mind_map.png)
+
 # [fit] teaching,
 ## [fit] making, 
 ## [fit] tinkering
 
 # How to approach coding
 
-> Make it work
-Make it right
-Make it fast
+- Build real projects
+- Work together
+- Write for future projects
+- Build on previous projects
+
+# How to approach coding (2)
+
+- Choose common libraries
+  - How recently updated?
+  - awesome-python.com
+- ~~Read~~ Skim documentation
+  - Stick close to examples: choose challenges carefully
+  - ~~Borrow~~ Steal from StackExchange
+
+# How to approach coding (3)
+
+1. Make it work
+2. Make it right
+3. Make it fast
+    *"Premature optimisation is the root of all evil."*
+    — Donald Knuth
