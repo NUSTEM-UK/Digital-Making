@@ -13,7 +13,7 @@ while True:
     potReading = pot.value
     servoSetting = map_values(potReading, 0.0, 1.0, -1.0, 1.0)
     # Spew diagnostics to the terminal, but formatted neatly
-    print("%1.3f, %1.3f" % (potReading, servoSetting))
+    print("{0:1.3f}, {1:1.3f}".format(potReading, servoSetting))
     # Move the servo
     servo.value = servoSetting
     sleep(0.05)
