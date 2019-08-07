@@ -20,5 +20,5 @@ def button_pressed():
 button.when_pressed = button_pressed
 
 # The following lines aren't needed once in PyGameZero
-print("Listening for button presses. Interup with ctrl+c")
+print("Listening for button presses. Interupt with ctrl+c")
 pause()
