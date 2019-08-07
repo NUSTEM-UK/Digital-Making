@@ -5,10 +5,12 @@ Run with sudo (required for hardware access in this case)
 NeoPixels aren't supported by GPIOzero (yet), so this is all a bit different
 to the previous stuff we've done.
 
-Dependencies (pip3 install):
+Dependencies (should be pre-installed):
     RPI.GPIO
+Dependencies (require sudo pip3 install):
     adafruit-blinka
     rpi_ws281x
+    adafruit-circuitpython-neopixel
 """
 
 import board

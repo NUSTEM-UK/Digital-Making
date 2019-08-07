@@ -31,7 +31,7 @@ while True:
     ########
 
     # Spew diagnostics to the terminal, but formatted neatly
-    print("%1.3f, %1.3f, %3d" % (potReading, servoSetting, hue))
+    print("{0:1.3f}, {1:1.3f}, {2:3d}".format(potReading, servoSetting, hue))
     # Move the servo
     servo.value = servoSetting
     

@@ -48,15 +48,13 @@ slide-dividers: #
 
 ![right, 150%](images/PID_error.png)  
   
-If you see an error like this, you'll need:
+If you see an error like this, the menus won't work. You'll need:
 
 `sudo shutdown -h now`
 
 or:
 
 `sudo reboot`
-
-(the menus won't work) 
 
 
 # [fit] FLASHING 
@@ -101,10 +99,6 @@ sequence(0.7)
 ---
 ![fit](images/mind_map.png)
 
-# [fit] teaching,
-## [fit] making, 
-## [fit] tinkering
-
 # How to approach coding
 
 - Build real projects
@@ -128,3 +122,7 @@ sequence(0.7)
 3. Make it fast
     *"Premature optimisation is the root of all evil."*
     — Donald Knuth
+
+# [fit] teaching,
+## [fit] making, 
+## [fit] tinkering
