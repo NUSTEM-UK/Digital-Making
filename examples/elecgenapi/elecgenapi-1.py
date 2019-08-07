@@ -11,11 +11,7 @@ https://carbon-intensity.github.io/api-definitions/?python#generation
 
 import requests
 
-headers = {
-    'Accept': 'application/json'
-}
-
-r = requests.get('https://api.carbonintensity.org.uk/generation', params={}, headers=headers)
+r = requests.get('https://api.carbonintensity.org.uk/generation')
 
 # Parse the JSON response
 mix = r.json()

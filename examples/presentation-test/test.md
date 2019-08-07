@@ -1,0 +1,40 @@
+name: inverse
+class: center, middle, inverse
+layout: true
+
+---
+
+# Title
+
+---
+
+# Agenda
+
+1. Introduction
+2. Deep-dive
+3. ...
+
+---
+
+# Introduction
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+---
+
+# Next slide
+
+> Contains a quote
+> -- with a second line
+
+---
+
+# Python
+
+```python
+def cabbages(vegetables):
+    num_cabbages = vegetables
+    return cabbages
+
+cabbages(5)
+```

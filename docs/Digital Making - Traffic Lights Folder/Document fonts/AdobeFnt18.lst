@@ -1,0 +1,176 @@
+%!Adobe-FontList 1.18
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:DejaVuSansMono-Bold
+FamilyName:DejaVu Sans Mono
+StyleName:Bold
+MenuName:DejaVu Sans Mono
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:DejaVu Sans Mono Bold
+WritingScript:Roman
+OutlineFileName:\DejaVuSansMono-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:318392
+FileModTime:1500374500
+NameArray:0,Mac,4,DejaVu Sans Mono Bold
+NameArray:0,Win,1,DejaVu Sans Mono
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:DejaVuSansMono
+FamilyName:DejaVu Sans Mono
+StyleName:Book
+MenuName:DejaVu Sans Mono
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:DejaVu Sans Mono
+WritingScript:Roman
+OutlineFileName:\DejaVuSansMono.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:335068
+FileModTime:1500374500
+NameArray:0,Mac,4,DejaVu Sans Mono
+NameArray:0,Win,1,DejaVu Sans Mono
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+MenuName:Minion Pro
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Minion Pro
+WritingScript:Roman
+OutlineFileName:\MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:218640
+FileModTime:1461770649
+DesignSize:110
+NameArray:0,Mac,4,Minion Pro
+NameArray:0,Win,1,Minion Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MyriadPro-LightIt
+FamilyName:Myriad Pro
+StyleName:Light Italic
+MenuName:Myriad Pro Light
+StyleBits:1
+WeightClass:300
+WidthClass:5
+AngleClass:1
+FullName:Myriad Pro Light Italic
+WritingScript:Roman
+OutlineFileName:\Myriad Pro Light Italic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:97952
+FileModTime:1419688282
+NameArray:0,Mac,18,Myriad Pro Light It
+NameArray:0,Mac,4,Myriad Pro Light Italic
+NameArray:0,Win,1,Myriad Pro Light
+NameArray:0,Win,16,Myriad Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MyriadPro-Cond
+FamilyName:Myriad Pro
+StyleName:Condensed
+MenuName:Myriad Pro Cond
+StyleBits:0
+WeightClass:400
+WidthClass:3
+AngleClass:0
+FullName:Myriad Pro Condensed
+WritingScript:Roman
+OutlineFileName:\MyriadPro-Cond.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:92672
+FileModTime:1461770649
+DesignSize:110
+NameArray:0,Mac,18,Myriad Pro Cond
+NameArray:0,Mac,4,Myriad Pro Condensed
+NameArray:0,Win,1,Myriad Pro Cond
+NameArray:0,Win,16,Myriad Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MyriadPro-Light
+FamilyName:Myriad Pro
+StyleName:Light
+MenuName:Myriad Pro Light
+StyleBits:0
+WeightClass:300
+WidthClass:5
+AngleClass:0
+FullName:Myriad Pro Light
+WritingScript:Roman
+OutlineFileName:\MyriadPro-Light.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:101100
+FileModTime:1486548635
+NameArray:0,Mac,4,Myriad Pro Light
+NameArray:0,Win,1,Myriad Pro Light
+NameArray:0,Win,16,Myriad Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MyriadPro-Semibold
+FamilyName:Myriad Pro
+StyleName:Semibold
+MenuName:Myriad Pro Light
+StyleBits:2
+WeightClass:600
+WidthClass:5
+AngleClass:0
+FullName:Myriad Pro Semibold
+WritingScript:Roman
+OutlineFileName:\MyriadPro-Semibold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:97288
+FileModTime:1363361132
+DesignSize:110
+NameArray:0,Mac,4,Myriad Pro Semibold
+NameArray:0,Win,1,Myriad Pro Light
+NameArray:0,Win,16,Myriad Pro
+%EndFont
+
