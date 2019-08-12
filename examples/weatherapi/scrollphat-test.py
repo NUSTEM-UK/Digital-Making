@@ -5,10 +5,12 @@ import time
 import scrollphathd
 from scrollphathd.fonts import font5x5, font5x7
 
-BRIGHTNESS = 0.1 # The ScrollpHAT is insanely bright
+BRIGHTNESS = 0.4 # The ScrollpHAT is insanely bright
 scrollphathd.rotate(degrees=0) # If it's upside-down set this to 180
 
-message = "The time is: "
+message = " The time is: "
+# But the 5x5 font can only show uppercase characters, so:
+message = message.upper()
 
 while True:
     targetTime = time.time() + 5 # Set a time three second in the future
