@@ -6,7 +6,7 @@ import scrollphathd
 from scrollphathd.fonts import font5x5, font5x7
 
 BRIGHTNESS = 0.1 # The ScrollpHAT is insanely bright
-schollphatd.rotat(degrees=0) # If it's upside-down set this to 180
+schollphathd.rotate(degrees=0) # If it's upside-down set this to 180
 
 message = "The time is: "
 
