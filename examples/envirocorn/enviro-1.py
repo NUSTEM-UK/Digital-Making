@@ -1,10 +1,9 @@
 from time import sleep
-from envirohat import light, motion
-
-rgb = light.rgb()
-haeding = motion.heading()
+from envirophat import light, motion
 
 while True:
-    print(rgb)
-    print(heading)
-    sleep(0.1)
+    rgb = light.rgb()
+    heading = motion.heading()
+    
+    print(rgb, heading)
+    sleep(0.2)
