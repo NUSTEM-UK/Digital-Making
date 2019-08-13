@@ -11,8 +11,10 @@ def map_values(x, a, b, c, d):
     return y
 
 while True:
+    # We need separate RGB values for the UnicornHAT
     r, g, b = light.rgb()
     heading = motion.heading()
+    # Heading is 0-359 degrees; map to 0-1.0 for UnicornHAT brightness
     brightness = map_values(heading, 0, 359, 0.0, 1.0)
     
     print(r, g, b, heading, brightness)
