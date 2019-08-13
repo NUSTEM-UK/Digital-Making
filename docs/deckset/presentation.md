@@ -39,6 +39,9 @@ slide-dividers: #
 - Crib from others, continuously
 - ...
 
+# Python 
+
+![inline](images/wisdom_of_the_ancients.png)
 
 # [fit] FLASHING 
 ## [fit] LIGHTS
