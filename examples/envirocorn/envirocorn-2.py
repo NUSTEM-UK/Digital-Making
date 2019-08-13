@@ -6,7 +6,7 @@ unicornhathd.brightness(1.0)
 unicornhathd.clear()
 unicorn_height = unicorn_width = 16
 
-bar_speed = 1
+bar_speed = 12
 bar_width = 1
 
 def map_values(x, a, b, c, d):
@@ -15,7 +15,7 @@ def map_values(x, a, b, c, d):
     return y
 
 # Make ourselves an empty array
-values_y = [None] * 16
+values_y = [int(0)] * 16
 
 while True:
     # We need separate RGB values for the UnicornHAT
@@ -23,15 +23,20 @@ while True:
     heading = motion.heading()
 
     # Drop the first height value from the list
-    values_y.pop[0]
+    values_y.pop(0)
     # Add a value to the end, calculated from the heading
-    values_y.append(map_values(heading, 0, 359, 0, 15))
+    values_y.append(int(map_values(heading, 0, 359, 0, 16)))
 
     for x in range(16):
-        for y in range (values_y[x]):
-            unicornhathd.set_pixel(x, y, r, g, b)
+        for y in range(16):
+            this_brightness = min(1, values_y[x]-y)
+            if this_brightness > 0:
+                mult = 1
+            else:
+                mult = 0
+            unicornhathd.set_pixel(x, y, r*mult, g*mult, b*mult)
         
-    print(r, g, b, heading, brightness)
+    print(r, g, b, heading)
 
     unicornhathd.show()
 
