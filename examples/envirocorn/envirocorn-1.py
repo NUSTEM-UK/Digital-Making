@@ -2,7 +2,7 @@ from time import sleep
 from envirophat import light, motion
 import unicornhathd
 
-unicornhathd.brightness(0.5)
+unicornhathd.brightness(1.0)
 unicornhathd.clear()
 
 def map_values(x, a, b, c, d):
@@ -11,13 +11,14 @@ def map_values(x, a, b, c, d):
     return y
 
 while True:
-    rgb = light.rgb()
+    r, g, b = light.rgb()
     heading = motion.heading()
+    brightness = map_values(heading, 0, 359, 0.0, 1.0)
     
-    print(rgb, heading)
+    print(r, g, b, heading, brightness)
 
-    unicornhathd.set_all(rgb)
-    unicornhathd.brightness(heading, 0, 359, 0.0, 1.0)
+    unicornhathd.set_all(r, g, b)
+    unicornhathd.brightness(brightness)
     unicornhathd.show()
 
-    sleep(0.2)
+    sleep(0.1)
