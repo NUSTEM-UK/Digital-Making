@@ -14,7 +14,7 @@ def map_values(x, a, b, c, d):
     y = (x-a)/(b-a) * (d-c)+c
     return y
 
-# Make ourselves an empty array
+# Make ourselves an empty list
 values_y = [int(0)] * 16
 
 while True:
@@ -23,17 +23,24 @@ while True:
     heading = motion.heading()
 
     # Drop the first height value from the list
+    # (all the rest shuffle up)
     values_y.pop(0)
     # Add a value to the end, calculated from the heading
     values_y.append(int(map_values(heading, 0, 359, 0, 16)))
 
+    # Iterate over the UnicornHAT x axis (time)
     for x in range(16):
+        # Iterate over the UnicornHAT y axis (values)
         for y in range(16):
+            # Calculate whether this pixel should be lit or not
             this_brightness = min(1, values_y[x]-y)
+            # Scale brightness to full...
             if this_brightness > 0:
                 mult = 1
             else:
+                # ...or nothing
                 mult = 0
+            # Write the pixel in question
             unicornhathd.set_pixel(x, y, r*mult, g*mult, b*mult)
         
     print(r, g, b, heading)
