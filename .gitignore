@@ -3,6 +3,7 @@ twythonCreds.py
 # any accidental image hosting
 camImage.jpg
 .DS_Store
+examples/weatherapi/clientsecrets.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
