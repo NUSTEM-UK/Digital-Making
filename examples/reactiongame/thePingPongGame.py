@@ -3,7 +3,7 @@ from time import sleep
 from gpiozero import Button
 import random
 
-#initiate the buttons on GPIO pins 7 and 10
+#initiate the buttons on GPIO pins 7 and 10 
 button1 = Button(10)
 button2 = Button(7)
 
