@@ -37,7 +37,7 @@ def totaliser(player):
     print ('P2 - %d' % p2Score)
     print()
 
-def startTheFansPlease(player):
+def whoWins(player):
     print('We have a winner!')
     print('P%d wins' % player)
     if player == 1:
@@ -78,8 +78,8 @@ while p1Score < topScore and  p2Score < topScore:
 
 # work out who won and start the celebrations!
 if p1Score > p2Score:
-    startTheFansPlease(1)
+    whoWins(1)
     flashPlayer(1,50)
 else:
-    startTheFansPlease(2)
+    whoWins(2)
     flashPlayer(2,50)
