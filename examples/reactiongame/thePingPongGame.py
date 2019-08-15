@@ -10,7 +10,7 @@ button2 = Button(7)
 #set the initial scores and the winning score
 p1Score = 0
 p2Score = 0
-topScore = 2
+topScore = 3
 
 # this fucntion counts down from 3 - 0 to Go! with random delays between each count
 def countdown():
@@ -39,10 +39,11 @@ def totaliser(player):
 
 def whoWins(player):
     print('We have a winner!')
-    print('P%d wins' % player)
     if player == 1:
+        print('Player 1 wins')
         explorerhat.motor.one.forward()
     else:
+        print('Player 2 wins')
         explorerhat.motor.two.forward()
 
 def flashPlayer(player, duration):
