@@ -13,9 +13,10 @@ def theFloorShow(r,g,b):
 # https://gpiozero.readthedocs.io/en/stable/api_input.html#base-classes
 
 # GPIO pins have physical pull_up resistors so set to True, use pins 2,3 and 4
-blueB = DigitalInputDevice(2, pull_up=True)
 redB = DigitalInputDevice(3, pull_up=True)
+blueB = DigitalInputDevice(2, pull_up=True)
+greenB = DigitalInputDevice(4, pull_up=True)
 
 # My loop
 while True:
-    theFloorShow(redB.value, 0, blueB.value)
+    theFloorShow(redB.value, greenB.value, blueB.value)
