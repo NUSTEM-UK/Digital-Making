@@ -3,7 +3,7 @@ from time import sleep
 from gpiozero import Button
 import random
 
-#initiate the buttons on GPIO pins 7 and 10
+#initiate the buttons on GPIO pins 7 and 10 
 button1 = Button(10)
 button2 = Button(7)
 
@@ -12,7 +12,7 @@ p1Score = 0
 p2Score = 0
 topScore = 3
 
-# this fucntion counts down from 3 - 0 to Go! with random delays between each count
+# this function counts down from 3 - 0 to Go! with random delays between each count
 def countdown():
     #turn on all the lights on the explorerHat
     explorerhat.light.yellow.on()
