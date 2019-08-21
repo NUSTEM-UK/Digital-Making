@@ -18,4 +18,5 @@ redB = DigitalInputDevice(3, pull_up=True)
 
 # My loop
 while True:
+    # I've not the the green toggle swtich wired up yet so I'll input a value of 0 for green
     theFloorShow(redB.value, 0, blueB.value)

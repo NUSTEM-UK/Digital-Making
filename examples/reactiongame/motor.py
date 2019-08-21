@@ -6,4 +6,4 @@ explorerhat.motor.one.forward()
 explorerhat.motor.two.forward()
 
 #leave it running for 5 seconds
-sleep(100)
+sleep(5)
