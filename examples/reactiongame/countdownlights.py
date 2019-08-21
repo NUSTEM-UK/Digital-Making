@@ -9,10 +9,10 @@ explorerhat.light.red.on()
 
 #then turn them off, but with a random delay between each light for added tension / fun
 explorerhat.light.green.off()
-sleep(random.randint(1,20)/10)
+sleep(random.uniform(1,5)
 explorerhat.light.blue.off()
-sleep(random.randint(1,20)/10)
+sleep(random.uniform(1,5)
 explorerhat.light.yellow.off()
-sleep(random.randint(1,20)/10)
+sleep(random.uniform(1,5)
 explorerhat.light.red.off()
 explorerhat.light.green.on()

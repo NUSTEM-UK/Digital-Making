@@ -21,7 +21,7 @@ from picamera import PiCamera
 from gpiozero import Button
 from signal import pause
 
-# I need to change the satus each time so I don't get blocked from Twitter
+# I need to change the status each time so I don't get blocked from Twitter
 import random
 
 #initiate Twitter, Button and the PiCamera
