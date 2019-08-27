@@ -5,7 +5,10 @@ pot = MCP3008(channel=0)
 servo = Servo(21)
 
 def map_values(x, a, b, c, d):
-    """Maps value range from input to output."""
+    """Maps value range from input to output.
+    
+    For value x in input range a to b, calculate corresponding
+    value in output range c to d."""
     y = (x-a)/(b-a) * (d-c)+c
     return y
 
