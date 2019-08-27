@@ -29,6 +29,10 @@ twitter = Twython (APP_KEY, APP_SECRET, OAUTH_TOKEN, OAUTH_TOKEN_SECRET)
 button = Button(3)
 camera = PiCamera()
 
+# add your camera filters and annotations in here
+
+randomStatuses = ("What a great face I have!", "Look at me, look at me!", "S'up", "This is my face!")
+
 # Picture taker
 def snapSnap():
     camera.capture('camImage.jpg')
@@ -39,8 +43,8 @@ def snapSnap():
 def tweetImage():
     photo = open('camImage.jpg', 'rb')
     response = twitter.upload_media(media=photo)
-    ranNum = str(random.randint(1,101))
-    twitter.update_status(status=ranNum, media_ids=[response['media_id']])
+    ranNum = random.randint(0,len(randomStatuses)-1)
+    twitter.update_status(status=randomStatuses[ranNum], media_ids=[response['media_id']])
     print("Twitter image uploaded successfully")
     photo.close()
         
