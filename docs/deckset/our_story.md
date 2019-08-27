@@ -78,11 +78,18 @@ But:
 * Github collaboration
 
 # [fit] Technology Wishing Well
-
 ![original](images/Technology Wishing Well-2.jpg)
 
-# [fit] Technology Wishing Well
+---
+![fit](images/DemoSun01-frame-22000.jpeg)
 
+---
+![fit](images/run01-frame-57161.jpeg)
+
+---
+![fit](images/Technology Wishing Well-3.jpg)
+
+# [fit] Technology Wishing Well
 ![right](images/Technology Wishing Well output-1.jpeg)
 
 |  |  |  |
@@ -136,7 +143,7 @@ But:
 | Raspberry Pi | ESP8266 | Python | Picamera |
 | NeoPixels | GPIOzero | Thermal printer | MQTT |
 | QR codes | MySQL | more NeoPixels | Processing
-| **EVEN MORE NEOPIXELS** | | No really, _all_ the NeoPixels | 
+| **EVEN MORE NEOPIXELS** | | _All your NeoPixel are belong to us_ | 
 
 ---
 
@@ -161,6 +168,9 @@ But:
 
 ![autoplay](https://www.youtube.com/watch?v=-eCzMi-BVEc)
 
+---
+![fit](images/Robot-Orchestra-3-command-diagram.png)
+
 # [fit] Pirograph
 
 ![right](images/Pirograph.jpg)
@@ -170,4 +180,46 @@ But:
 * Performance profiling
 * Processing
 * "ScutterZero"
+
+---
+![](images/Pirograph-2018-4-29-10-59-34.png)
+
+---
+![](images/Pirograph-2018-4-29-17-18-33.png)
+
+# [fit] THINGS
+## [fit] WHAT WE
+## [fit] LEARNED
+
+# How to approach coding
+
+- Build real projects
+- Work together
+- Write for future projects
+- Build on previous projects
+
+# How to approach coding (2)
+
+- Choose common libraries
+  - How recently updated?
+  - awesome-python.com
+- ~~Read~~ Skim documentation
+  - Stick close to examples: choose challenges carefully
+  - ~~Borrow~~ Steal from StackExchange
+
+# How to approach coding (3)
+
+1. Make it work
+2. Make it right
+3. Make it fast
+  
+> *"Premature optimisation is the root of all evil."*
+> — Donald Knuth
+
+# [fit] teaching,
+## [fit] making, 
+## [fit] tinkering
+
+---
+![fit](images/mind_map.png)
 
