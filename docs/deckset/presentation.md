@@ -99,6 +99,22 @@ sequence(0.7)
 # [fit]Programming as 
 ## [fit]**Digital Lego**
 
+# [fit]Carousel 
+
+---
+
+| Activity  | Difficulty  | Where?  |
+| --- | --- | --- |
+| Toggle Switches & RGB LEDs | Easy | Station |
+| Electricity Generation API | Hardish | Desk |
+| Cameras, buttons and Twitter | Moderate | Station |
+| Weather APIs | Easy... or insanely hard | Station |
+| Envirocorn | Medium | Station |
+| People in Spaaaaace | Medium | Desk |
+| PyGame Zero | Hard, because badly-written | Desk |
+| Motors, Lights and Buttons | Hard | Station |
+| Analogue Input | Easy-ish? | Station |
+
 ---
 ![fit](images/mind_map.png)
 

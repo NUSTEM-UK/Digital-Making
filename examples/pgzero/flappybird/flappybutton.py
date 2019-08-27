@@ -77,6 +77,7 @@ def on_key_down():
 # HINT:
 # Add a function here which handles a button press.
 # It'll look very similar to the on_key_down() function above.
+# In fact, you could technically skip this bit and call on_key_down() directly.
 ###
 
 def draw():

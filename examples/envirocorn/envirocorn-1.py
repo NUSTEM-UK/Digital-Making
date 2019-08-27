@@ -6,7 +6,10 @@ unicornhathd.brightness(1.0)
 unicornhathd.clear()
 
 def map_values(x, a, b, c, d):
-    """Maps value range from input to output."""
+    """Maps value between input and output ranges.
+    
+    Takes input value x in range a to b, returning corresponding value in range c to d.
+    """
     y = (x-a)/(b-a) * (d-c)+c
     return y
 
