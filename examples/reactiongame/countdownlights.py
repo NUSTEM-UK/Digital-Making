@@ -21,7 +21,8 @@ def countdown():
     explorerhat.light.red.off()
     explorerhat.light.green.on()
 
-    sleep(5)
-    explorerhat.light.green.off()
-
 countdown()
+
+# Now clean up after ourselves
+sleep(3)
+explorerhat.explorerhat_exit()
