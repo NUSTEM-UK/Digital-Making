@@ -73,14 +73,10 @@ def on_key_down():
     if not bird.dead:
         bird.vy = -FLAP_STRENGTH
 
-def button_pressed():
-    if not bird.dead:
-        bird.vy = -FLAP_STRENGTH
-###
-# HINT:
-# Add a function here which handles a button press.
-# It'll look very similar to the on_key_down() function above.
-###
+# def button_pressed():
+#     if not bird.dead:
+#         bird.vy = -FLAP_STRENGTH
+
 
 def draw():
     screen.blit('background', (0, 0))
@@ -95,11 +91,7 @@ def draw():
         shadow=(1, 1)
     )
 
-###
-# HINT:
-# You'll need to add a handler for the button press, 
-# just like line 20 in the button.py example.
-###
-button.when_pressed = button_pressed
+
+button.when_pressed = on_key_down()
 
 pgzrun.go()
