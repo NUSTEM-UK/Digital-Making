@@ -21,4 +21,7 @@ def countdown():
     explorerhat.light.red.off()
     explorerhat.light.green.on()
 
+    sleep(5)
+    explorerhat.light.green.off()
+
 countdown()
