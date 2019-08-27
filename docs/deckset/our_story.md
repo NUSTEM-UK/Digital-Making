@@ -22,6 +22,12 @@ autoscale: true
 ![left original](images/wheel.jpg)
 
 ---
+![original](images/wheel of fortune.jpg)
+
+---
+![autoplay mute 70%](images/wheel of fortune.mp4)
+
+---
 <!-- ![](images/Pendulum Wave Sculpture.mp4) -->
 <!-- ![](https://youtu.be/Ep299thE-9w?t=50) -->
 ![](https://youtu.be/Ep299thE-9w)
