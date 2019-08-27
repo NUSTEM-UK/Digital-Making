@@ -9,5 +9,5 @@ explorerhat.motor.two.forward()
 sleep(5)
 
 #turn the motors off
-explorerhat.motor.one.forward(0)
-explorerhat.motor.two.forward(0)
+explorerhat.motor.one.stop()
+explorerhat.motor.two.stop()
