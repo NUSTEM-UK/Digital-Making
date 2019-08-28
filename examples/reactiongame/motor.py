@@ -8,6 +8,5 @@ explorerhat.motor.two.forward()
 #leave it running for 5 seconds
 sleep(5)
 
-#turn the motors off
-explorerhat.motor.one.stop()
-explorerhat.motor.two.stop()
+# Now clean up after ourselves
+explorerhat.explorerhat_exit()
