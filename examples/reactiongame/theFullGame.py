@@ -84,3 +84,7 @@ if p1Score > p2Score:
 else:
     whoWins(2)
     flashPlayer(2,50)
+
+# Now clean up after ourselves
+sleep(3)
+explorerhat.explorerhat_exit()
