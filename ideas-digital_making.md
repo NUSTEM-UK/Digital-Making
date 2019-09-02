@@ -1,4 +1,4 @@
-# Digital Making -- key concepts and technologies
+# Digital Making &ndash; key concepts and technologies
 
 For the most part, you can plug bits of electronics together without much worry, and for most of the things you're likely to do you won't need to use very many components or worry about suppressing signals or whatever -- most of the tricky bits are taken care of by the boards we use. At NUSTEM, we go out of our way to *avoid* doing much in the way of electronics, and so far we've not found ourselves terribly limited by taking that view.
 
@@ -9,6 +9,7 @@ There are, however, a few basic circuits and ideas which you can combine to make
 At some stage, you're going to fry something. In digital making circles this is known as 'letting the blue smoke out', for reasons that become obvious. Things that are worth knowing:
 
 ### Shorting batteries
+
 It's *extremely* easy to let the two wires of a battery pack touch each other. Batteries will become very hot really quite quickly, the packs will start melting, there may be a bit of smoke, and so on. It's quite alarming, and should certainly go on your risk assessment.
 
 Control measures might include:
@@ -20,13 +21,13 @@ In the good old days, electronics standardised around 5V circuits. Which was gre
 
 Arduinos tend to use 5V; Micro:Bit and Raspberry Pi are 3.3V devices. Most of the time this doesn't matter too much, but:
 
-* Try not to push 5V into 3.3V device. It may not like it (see above re: letting the blue smoke out)
+* Try not to push 5V into a 3.3V device. It may not like it (see above re: letting the blue smoke out)
 * For situations where it actually does matter, you can get *logic level convertors* which will translate your signals between 5 and 3.3V. Google them.
 
 ### Protected vs. unprotected inputs
-One of the reasons Arduinos were (and are) popular in installation art and maker circules is that the standard boards have massive resistors on their inputs. Which makes it really hard to accidentally fry the board by shoving 5V where it doesn't belong. That's called a *protected input*.
+One of the reasons Arduinos were (and are) popular in installation art and maker circles is that the standard boards have massive resistors on their inputs. Which makes it really hard to accidentally fry the board by shoving 5V where it doesn't belong. That's called a *protected input*.
 
-Unfortunately, protected inputs are expensive to make, which is why part of why an Arduino has a tiny fraction of the processing power of a Raspberry Pi but costs about the same. Neither Pis nor Micro:Bits have protected inputs.
+Unfortunately, protected inputs are expensive to make, which is part of why an Arduino has a tiny fraction of the processing power of a Raspberry Pi but costs about the same. Neither Pis nor Micro:Bits have protected inputs.
 
 The [Explorer HAT Pro](https://shop.pimoroni.com/products/explorer-hat) boards we use with our Pis *do* offer protected inputs.
 
