@@ -32,16 +32,16 @@ Source files for the documentation are as follows:
 
 ## Legacy documents
 
-For earlier incarnations of this training day we started to write up some more general thoughts and ideas, along with notes on specific platforms including Micro:Bit and Node-RED. These haven't been updated in some time, but may form the basis for future activities and hence remain in place: 
+For earlier incarnations of this training day we started to write up some more general thoughts and ideas, along with notes on specific platforms including Micro:Bit and Node-RED. These haven't been updated in some time, but may form the basis for future activities and hence remain in the repo, in the `docs-legacy` directory. Some example code is also stored there. 
 
-* [Micro:Bit](microbit.md)
-* [Node-RED](node-red.md) and the outside world
-* [Things to explore](explore.md) (refers to example exercises now superseded by those listed above)
-* [Ideas - Principles from which to build](ideas-principles.md) (stub)
-* [Ideas - Digital Making](ideas-digital_making.md) (stub, some covered in the newer worksheets, above)
-* [Ideas - Programming](ideas-programming.md) (stub, some covered in the newer worksheets, above)
-* [Where to look for help](help.md) (stub)
+* [Micro:Bit](docs-legacy/microbit.md)
+* [Node-RED](docs-legacy/node-red.md) and the outside world
+* [Things to explore](docs-legacy/explore.md) (refers to example exercises now superseded by those listed above)
+* [Ideas - Principles from which to build](docs-legacy/ideas-principles.md) (stub)
+* [Ideas - Digital Making](docs-legacy/ideas-digital_making.md) (stub, some covered in the newer worksheets, above)
+* [Ideas - Programming](docs-legacy/ideas-programming.md) (stub, some covered in the newer worksheets, above)
+* [Where to look for help](docs-legacy/help.md) (stub)
 
 ## Key Rules
 
-1. Do not be on fire.
+0. Do not be on fire.
