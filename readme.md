@@ -8,7 +8,7 @@ These notes were originally compiled to assist the 'Digital Making' Skills Day o
 
 The 2019 training day for Dynamic Earth day was structured around [Raspberry Pi](https://www.raspberrypi.org) and [Python](https://www.python.org). Key elements of the day:
 
-* [Traffic Lights](docs/Digital Making - Traffic Lights.pdf) example (PDF worksheet)
+* [Traffic Lights](docs/Digital%20Making%20-%20Traffic%20Lights.pdf) example (PDF worksheet)
 * Worksheets (all PDFs):
   * [Button / Camera / Twitter](docs/button-camera-twitter.pdf)
   * [Electricity Generation API](docs/elecgenapi.pdf)
@@ -21,7 +21,7 @@ The 2019 training day for Dynamic Earth day was structured around [Raspberry Pi]
   * [Weather API and ScrollPHAT](docs/weatherapi.pdf)
 * Presentations (PDFs):
   * [The day's main structure](docs/presentations/presentation.pdf)
-  * [Joe & Jonathan's Journey](docs/presentations/our_story.pdf)
+  * [Joe & Jonathan's Journey](docs/presentations/our_story.pdf) (note that videos aren't embedded in the  )
 
 Worksheet code directories are in `/examples`. API keys, Twitter credentials and so on are omitted from this (public) repository.
 
@@ -44,4 +44,4 @@ For earlier incarnations of this training day we started to write up some more g
 
 ## Key Rules
 
-0. Do not be on fire.
+1. Do not be on fire.
